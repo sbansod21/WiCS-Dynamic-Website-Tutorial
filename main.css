@@ -1,17 +1,16 @@
-
 /*Use hex values to change the colors of the webpage*/
 :root {
-  --purple: #4b0082;
+  --purple: #7e0082;
   --white: #ffffff;
   --pink: #ffcccc;
 }
 
 body {
-    font-family: monospace;
+  font-family: monospace;
 }
 
 ul {
-    font-family: helvetica;
+  font-family: helvetica;
 }
 
 li {
@@ -46,7 +45,7 @@ li {
 }
 
 body {
-    background: var(--bg);
+  background: var(--bg);
 }
 
 .btn {
@@ -67,5 +66,6 @@ body {
   background-color: var(--btnBg);
 }
 
-.btn:focus { outline-style: none; }
-
+.btn:focus {
+  outline-style: none;
+}
